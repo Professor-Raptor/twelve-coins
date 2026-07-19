@@ -6,17 +6,21 @@ A CLI game/sim of the classic 12 coin balance puzzle featuring ASCII art and str
 
 ## Install
 If you are on Windows, you can simply download and run the portable .exe from releases or click here:  
-[Download Windows Executable]()  
+[Download Windows Executable](https://github.com/Professor-Raptor/twelve-coins/releases/download/v1.2.0/Twelve_Coins.exe)  
 \
-If Windows Defender tries to quarantine or delete it, please report it [here]() so I can try to submit to have that fixed.  
-Alternatively, you can also of course just download the python script (twelve_coins.py) and run it instead.  
+You'll likely get the "Windows protected your PC" message. This can be bypassed by clicking "more info" and "Run anyway" (if you trust me). If Windows Defender really doesn't like it and tries to quarantine or delete it, please report it [here](https://github.com/Professor-Raptor/twelve-coins/issues/2) so I can try to submit to have that fixed.  
+\
+Alternatively, if you have Python you can just download and run the script (twelve_coins.py) instead. Should work on Linux.  
 
-## Use
+## Usage
 There are practically no explanations or tips for the UI in game, so I'll provide them here: 
 - To help you keep track of the results of the weighings/coins, a symbol will be added below each coin every round indicating its position for that weighing.
 - To select coins to weigh, type them seperated by spaces and press enter after each pan. For example: "1 2 3 {enter} 4 5 6 {enter}".
 - To pick the coin at the end, type the coin and it's relative weight seperated by a space. For example: "5 +" or "5 is heavier".
 - To skip the intro, you can input "s" on the box screen.
+
+## Strategy validation
+The true intent of the puzzle is to find one of the methods that guarantees success. In this game, you are simply playing through a singular possibility. So the "strategy validation" simply means that once you have picked the coin you know/believe to be the fake, it will call you out for guessing or getting lucky.   
 
 \
 \
